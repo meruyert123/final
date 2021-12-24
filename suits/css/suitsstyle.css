@@ -1,7 +1,6 @@
 
-
   body {
-    background: #2a2e32;
+    background-color: #ffffff;
   }
   
   .text-small {
@@ -30,11 +29,12 @@
   footer {
     background: #212529;
   }
+  .hero{
+    background-color: #c4c4c4;
+  }
   
   
   /* ==========================================
       CUSTOM UTILS CLASSES
     ========================================== */
-    body, html {
-      height: 100%;
-    }
+   
