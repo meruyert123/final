@@ -46,7 +46,7 @@
       font-size: 32px;
   }
   .collection span{
-      color: yellowgreen;
+      color: rgb(0, 0, 0);
       font-size: 19px;
       font-weight: 800;
       padding-left: 5px;
@@ -58,7 +58,7 @@
       position: absolute;
       height: 45px;
       width: 110px;
-      background-color: yellowgreen;
+      background-color: rgb(202, 206, 194);
       color: white;
       border-radius: 5px;
       outline: none;
@@ -74,4 +74,7 @@
   }
   .collection input:hover{
       background-color: gray;
+  }
+  .text-center{
+    color: white;
   }
