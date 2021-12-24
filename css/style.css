@@ -2,7 +2,7 @@
     background-image: url('https://assets.gq.ru/photos/5d9f47da7fd1f9000820ed26/master/pass/GettyImages-461373553.jpg');
     background-size: cover;
     object-fit: cover;
-    background-position-y: -130px;
+    /* background-position-y: -130px; */
     width: 100%;
     height: 100%;
   }
@@ -115,7 +115,7 @@ display: flex;
 }
 
 .carousel-inner{
-height: 550px;
+/* height: 550px; */
 }
 .carousel-caption h5{
     font-size: 70px;
@@ -127,7 +127,8 @@ height: 550px;
     font-weight: 600;
 }
 .carousel-control-prev{
-  height: 500px;
+  
+  /* height: 500px; */
 }
 
 .btn{
@@ -195,5 +196,25 @@ height: 550px;
     color: white;
     outline: none;
     transition: 0.3s;
+
+}
+
+
+
+
+@media(max-width:600px) {
+  .banner-image {
+    
+  }
+  body{
+    width:100%;
+    height: 100%;
+  }
+  #carouselExampleCaptions{
+    height: 160px;
+  }
+
+
+
 
 }
