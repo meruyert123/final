@@ -111,10 +111,10 @@ height: 550px;
 .carousel-caption h5{
     font-size: 70px;
     font-weight: 400;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .carousel-caption p{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 600;
 }
 .carousel-control-prev{
@@ -133,5 +133,58 @@ height: 550px;
     background-color: white;
     color: red;
     transition: 0.4s;
+
+}
+
+.parallex{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), no-repeat center/80% url("https://i2-prod.somersetlive.co.uk/news/somerset-news/article2316335.ece/ALTERNATES/s615/2_GettyImages-835239246.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+}
+.parallex H1{
+  font-size: 55px;
+  font-weight: 700;
+ 
+
+
+}
+.parallex p{
+  font-size: 22px;
+}
+.btn4{
+    height: 40px;
+    width: 110px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+}
+.btn4:hover{
+    background-color:white;
+    color: yellowgreen;
+    transition: 0.3s;
+    border: none;
+}
+.images{
+  object-fit: cover;
+  background: no-repeat;
+  
+}
+.btn5{
+    height: 40px;
+    width: 110px;
+    background-color: white;
+    outline: none;
+    border: none;
+    color: yellowgreen;
+    border-radius: 4px;
+}
+.btn5:hover{
+    background-color: gray;
+    color: white;
+    outline: none;
+    transition: 0.3s;
 
 }
