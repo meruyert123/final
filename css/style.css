@@ -78,3 +78,60 @@
   .text-center{
     color: white;
   }
+  .maintext{
+   
+    width: 100%;
+  
+  }
+  h3{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Rock 3D', cursive;
+    font-family: 'Vujahday Script', cursive;
+  padding: 80px 50px;
+  text-align: center;
+  line-height: 50px;
+  word-spacing: 40px;
+text-transform: uppercase;
+
+  }
+  .div2{
+display: flex;
+  }
+  .div2 h3{
+    text-transform: lowercase;
+    font-family:sans-serif;
+
+  }
+
+
+.carousel-inner{
+height: 550px;
+}
+.carousel-caption h5{
+    font-size: 70px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+.carousel-caption p{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.carousel-control-prev{
+  height: 500px;
+}
+
+.btn{
+    background-color: red;
+    height: 45px;
+    width: 150px;
+    color: white;
+    outline: none;
+    border: none;
+}
+.btn:hover{
+    background-color: white;
+    color: red;
+    transition: 0.4s;
+
+}
