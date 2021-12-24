@@ -1,40 +1,40 @@
+body {
+  background: #ffffff;
+}
 
-  body {
-    background-color: #ffffff;
-  }
-  
-  .text-small {
-    font-size: 0.9rem;
-  }
-  
-  a {
-    color: inherit;
-    text-decoration: none;
-    transition: all 0.3s;
-  }
-  
-  a:hover, a:focus {
-    text-decoration: none;
-  }
-  
-  .form-control {
-    background: #212529;
-    border-color: #545454;
-  }
-  
-  .form-control:focus {
-    background: #212529;
-  }
-  
-  footer {
-    background: #212529;
-  }
-  .hero{
-    background-color: #c4c4c4;
-  }
-  
-  
-  /* ==========================================
-      CUSTOM UTILS CLASSES
-    ========================================== */
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #212529;
+}
+.hero{
+  background-color: #545454;
+}
+
+
+/* ==========================================
+    CUSTOM UTILS CLASSES
+  ========================================== */
+
    
