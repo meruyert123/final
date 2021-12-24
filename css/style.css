@@ -42,3 +42,36 @@
     body, html {
       height: 100%;
     }
+    .fas{
+      font-size: 32px;
+  }
+  .collection span{
+      color: yellowgreen;
+      font-size: 19px;
+      font-weight: 800;
+      padding-left: 5px;
+  }
+  .card{
+      border: none;
+  }
+  .collection input{
+      position: absolute;
+      height: 45px;
+      width: 110px;
+      background-color: yellowgreen;
+      color: white;
+      border-radius: 5px;
+      outline: none;
+      border: none;
+      text-align: center;
+      top: 40%;
+      left: 30%;
+      opacity: 0;
+  }
+  .collection .card:hover input{
+      opacity: 1;
+      transition: 1s;
+  }
+  .collection input:hover{
+      background-color: gray;
+  }
