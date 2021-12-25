@@ -76,19 +76,21 @@
 }
 
 
-
+.img img{
+  width: 900px;
+}
 @media(max-width:600px){
 
 
   .body{
       height:100px;
-      min-width: 300px;
+      min-width: 200px;
       background-color: white;
 
   }
   
-.jj{
-  width: 100%;
+.img img{
+  width: 400px;
   
 }
 .container4{
